@@ -1,0 +1,9 @@
+{
+  "name":"Comandos Elétricos Industriais — Microaulas 40h",
+  "short_name":"Comandos 40h",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#070a0f",
+  "theme_color":"#070a0f",
+  "icons":[{"src":"assets/logo-joelson.webp","sizes":"512x512","type":"image/webp"}]
+}

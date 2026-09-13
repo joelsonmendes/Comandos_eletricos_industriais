@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070a0f">
+  <meta name="description" content="Microaulas interativas de Comandos Elétricos Industriais — 40 horas, com partidas de motores, proteção, diagramas, soft-starter, inversor de frequência e diagnóstico.">
+  <title>Comandos Elétricos Industriais 40h | Microaulas Interativas</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/logo-joelson.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudoPrincipal">Ir para o conteúdo</a>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar" aria-label="Navegação principal">
+    <div class="brand-mini">
+      <img src="assets/logo-joelson.webp" alt="Logomarca Joelson Mendes">
+      <div><strong>COMANDOS</strong><span>Industriais • 40h</span></div>
+    </div>
+    <nav class="main-nav">
+      <button class="nav-item active" data-view="inicio" aria-current="page"><span class="nav-icon">⌂</span><span>Início</span></button>
+      <button class="nav-item" data-view="trilha"><span class="nav-icon">▦</span><span>Trilha 40h</span></button>
+      <button class="nav-item" data-view="simuladores"><span class="nav-icon">⚙</span><span>Laboratório digital</span></button>
+      <button class="nav-item" data-view="avaliacao"><span class="nav-icon">✓</span><span>Avaliação final</span></button>
+      <button class="nav-item" data-view="plano"><span class="nav-icon">☷</span><span>Plano do docente</span></button>
+      <button class="nav-item" data-view="galeria"><span class="nav-icon">▣</span><span>Galeria visual</span></button>
+      <button class="nav-item" data-view="referencias"><span class="nav-icon">§</span><span>Referências</span></button>
+      <a class="nav-item" href="certificado.html"><span class="nav-icon">▤</span><span>Gerar certificado</span></a>
+    </nav>
+    <div class="sidebar-status"><span>Progresso geral</span><div class="progress-track"><div class="progress-fill" id="sidebarProgress"></div></div><strong id="sidebarProgressText">0%</strong></div>
+    <button class="sidebar-reset" id="resetProgress">Reiniciar progresso</button>
+  </aside>
+
+  <div class="main-area">
+    <header class="topbar">
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir ou fechar menu" aria-expanded="false">☰</button>
+      <div class="topbar-title"><span>Formação prática profissional</span><strong>Comandos Elétricos Industriais</strong></div>
+      <div class="status-pill"><span class="pulse-dot"></span>Laboratório interativo</div>
+    </header>
+
+    <main id="conteudoPrincipal" tabindex="-1">
+      <section class="view active" id="view-inicio">
+        <div class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow">MICROAULAS INTERATIVAS • 40 HORAS</span>
+            <h1>Comandos Elétricos Industriais: do diagrama ao comissionamento</h1>
+            <p>Formação mão na massa em leitura de diagramas, contatores, relés, partidas de motores, intertravamentos, temporização, soft-starter, inversor de frequência, diagnóstico e projeto final.</p>
+            <div class="hero-actions"><button class="btn btn-primary" data-go="trilha">Iniciar treinamento</button><button class="btn btn-secondary" data-go="simuladores">Abrir laboratório digital</button></div>
+            <div class="legal-alert"><strong>Segurança primeiro:</strong> as práticas reais devem ocorrer em bancada adequada, com procedimentos, proteções e supervisão compatíveis com NR-10, NR-12 e instruções dos fabricantes.</div>
+          </div>
+          <div class="hero-logo-card"><img src="assets/logo-joelson.webp" alt="Joelson Mendes — Especialista em Energia, IoT e Indústria 4.0"><div class="logo-shine"></div></div>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card"><span class="stat-icon">⏱</span><strong>40h</strong><small>Carga horária</small></article>
+          <article class="stat-card"><span class="stat-icon">▦</span><strong>10</strong><small>Microaulas de 4h</small></article>
+          <article class="stat-card"><span class="stat-icon">⚙</span><strong>6</strong><small>Simuladores</small></article>
+          <article class="stat-card"><span class="stat-icon">?</span><strong>20</strong><small>Questões finais</small></article>
+        </div>
+
+        <div class="dashboard-grid">
+          <article class="panel course-progress-card">
+            <div class="panel-heading"><div><span class="eyebrow">SEU PROGRESSO</span><h2>Continue de onde parou</h2></div><strong class="big-percent" id="mainProgressText">0%</strong></div>
+            <div class="progress-track large"><div class="progress-fill" id="mainProgress"></div></div>
+            <p id="progressMessage">Nenhuma microaula concluída.</p>
+            <button class="btn btn-primary compact" id="continueCourse">Começar pela Microaula 1</button>
+          </article>
+          <article class="panel regulation-card">
+            <span class="eyebrow">COMPETÊNCIAS-CHAVE</span><h2>O aluno termina o curso sabendo</h2>
+            <div class="feature-list">
+              <div><span>01</span><p>Ler e interpretar diagramas de potência e comando.</p></div>
+              <div><span>02</span><p>Montar partidas direta, reversora e estrela-triângulo.</p></div>
+              <div><span>03</span><p>Parametrizar e aplicar soft-starter e inversor com segurança.</p></div>
+              <div><span>04</span><p>Diagnosticar falhas e documentar o comissionamento.</p></div>
+            </div>
+          </article>
+        </div>
+
+        <section class="panel methodology-panel">
+          <div class="panel-heading"><div><span class="eyebrow">METODOLOGIA</span><h2>Ciclo de aprendizagem</h2></div></div>
+          <div class="method-grid">
+            <div class="method-card"><span>1</span><strong>Entender</strong><p>Conceito, simbologia e lógica elétrica.</p></div>
+            <div class="method-card"><span>2</span><strong>Desenhar</strong><p>Diagrama de potência, comando e referências.</p></div>
+            <div class="method-card"><span>3</span><strong>Montar</strong><p>Prática em bancada e simulação digital.</p></div>
+            <div class="method-card"><span>4</span><strong>Comissionar</strong><p>Testes, falhas, medições e documentação.</p></div>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="view-trilha">
+        <div class="section-header"><div><span class="eyebrow">TRILHA FORMATIVA</span><h1>10 microaulas • 4 horas cada</h1><p>Teoria aplicada, prática em bancada, estudo de caso e quiz.</p></div><div class="hours-badge"><strong id="hoursCompleted">0</strong><span>de 40h concluídas</span></div></div>
+        <div class="module-grid" id="moduleGrid"></div>
+      </section>
+
+      <section class="view" id="view-modulo"><button class="back-link" data-go="trilha">← Voltar para a trilha</button><div id="moduleContent"></div></section>
+
+      <section class="view" id="view-simuladores">
+        <div class="section-header"><div><span class="eyebrow">LABORATÓRIO DIGITAL</span><h1>Simuladores de comandos</h1><p>Treine a lógica antes da montagem física. Os modelos são didáticos e não substituem dados de catálogo e ensaios reais.</p></div></div>
+        <div class="simulator-tabs" role="tablist">
+          <button class="sim-tab active" data-sim="selo">Partida direta</button>
+          <button class="sim-tab" data-sim="reversao">Reversão</button>
+          <button class="sim-tab" data-sim="estrela">Estrela-triângulo</button>
+          <button class="sim-tab" data-sim="sobrecarga">Relé térmico</button>
+          <button class="sim-tab" data-sim="inversor">Inversor</button>
+          <button class="sim-tab" data-sim="diagnostico">Diagnóstico</button>
+        </div>
+        <div class="simulator-stage">
+          <article class="sim-panel active" id="sim-selo">
+            <div class="sim-header"><div><span class="eyebrow">LÓGICA DE SELO</span><h2>Partida direta com retenção</h2></div><span class="sim-tag">S0 • S1 • KM1</span></div>
+            <div class="diagram-stage">
+              <div class="ladder"><div class="rail"><div class="rung"><span class="contact on" id="seloStop">S0 NF</span><span class="contact" id="seloStart">S1 NA</span><span class="coil" id="seloCoil">KM1</span></div><div class="rung"><span class="contact on">S0 NF</span><span class="contact" id="seloAux">KM1 13-14</span><span class="coil" id="seloMotor">MOTOR</span></div></div></div>
+              <div class="control-row"><button class="btn btn-primary" id="btnStart">START S1</button><button class="btn btn-secondary" id="btnStop">STOP S0</button><button class="btn" id="btnResetSelo">Reset</button></div>
+              <div class="status-lamps"><span class="lamp"><i id="lampKm1"></i>KM1</span><span class="lamp"><i id="lampMotor"></i>Motor</span></div>
+              <p class="mini-note">Ao pressionar START, KM1 fecha o contato auxiliar 13-14 e mantém a bobina energizada mesmo após soltar S1. STOP abre o circuito de comando.</p>
+            </div>
+          </article>
+
+          <article class="sim-panel" id="sim-reversao">
+            <div class="sim-header"><div><span class="eyebrow">INTERTRAVAMENTO</span><h2>Partida reversora</h2></div><span class="sim-tag">KM1 ↔ KM2</span></div>
+            <div class="diagram-stage">
+              <div class="control-row"><button class="btn btn-primary" id="btnForward">Sentido horário</button><button class="btn btn-primary" id="btnReverse">Sentido anti-horário</button><button class="btn btn-secondary" id="btnRevStop">Parar</button></div>
+              <div class="status-lamps"><span class="lamp"><i id="lampFwd"></i>KM1 horário</span><span class="lamp"><i id="lampRev"></i>KM2 anti-horário</span><span class="lamp"><i id="lampBlock"></i>Intertravamento</span></div>
+              <div class="result-box"><strong id="revStatus">Motor parado.</strong><span id="revHint">O intertravamento impede KM1 e KM2 simultâneos.</span></div>
+            </div>
+          </article>
+
+          <article class="sim-panel" id="sim-estrela">
+            <div class="sim-header"><div><span class="eyebrow">SEQUÊNCIA TEMPORIZADA</span><h2>Partida estrela-triângulo</h2></div><span class="sim-tag">KM1 • KM2 • KM3</span></div>
+            <div class="diagram-stage">
+              <label for="starTime">Tempo didático em estrela (s)</label><input type="range" id="starTime" min="2" max="10" value="5"><div class="sim-readout"><span id="starTimeOut">5</span> s</div>
+              <div class="sequence"><span id="seq0">Parado</span><span id="seq1">KM1 + KM estrela</span><span id="seq2">Transição</span><span id="seq3">KM1 + KM triângulo</span></div>
+              <div class="control-row"><button class="btn btn-primary" id="btnStarStart">Iniciar sequência</button><button class="btn btn-secondary" id="btnStarStop">Parar</button></div>
+              <div class="status-lamps"><span class="lamp"><i id="lampMain"></i>KM principal</span><span class="lamp"><i id="lampStar"></i>KM estrela</span><span class="lamp"><i id="lampDelta"></i>KM triângulo</span></div>
+            </div>
+          </article>
+
+          <article class="sim-panel" id="sim-sobrecarga">
+            <div class="sim-header"><div><span class="eyebrow">PROTEÇÃO DO MOTOR</span><h2>Ajuste didático do relé de sobrecarga</h2></div><span class="sim-tag">I motor × ajuste</span></div>
+            <div class="sim-grid-two">
+              <div class="form-card"><label>Corrente nominal do motor (A)</label><input type="number" id="motorIn" value="12.5" min="0.1" step="0.1"><label>Ajuste do relé (A)</label><input type="number" id="relaySet" value="12.5" min="0.1" step="0.1"><label>Corrente medida (A)</label><input type="number" id="motorCurrent" value="11.8" min="0" step="0.1"><button class="btn btn-primary" id="btnRelayCalc">Analisar</button></div>
+              <div class="result-box"><strong id="relayResult">Dentro da faixa didática.</strong><span id="relayDetail">Insira os valores e analise.</span></div>
+            </div><p class="mini-note">Simulação conceitual. Curvas de disparo e critérios de ajuste dependem do relé, classe, regime do motor e dados do fabricante.</p>
+          </article>
+
+          <article class="sim-panel" id="sim-inversor">
+            <div class="sim-header"><div><span class="eyebrow">VELOCIDADE</span><h2>Frequência, polos e rotação</h2></div><span class="sim-tag">ns = 120f / p</span></div>
+            <div class="sim-grid-two"><div class="form-card"><label>Frequência (Hz)</label><input id="vfdHz" type="range" min="5" max="60" value="50"><div class="sim-readout"><span id="vfdHzOut">50</span> Hz</div><label>Número de polos</label><select id="vfdPoles"><option>2</option><option selected>4</option><option>6</option><option>8</option></select><label>Escorregamento estimado (%)</label><input id="vfdSlip" type="number" min="0" max="15" step="0.1" value="3"></div><div class="result-box"><strong id="rpmSync">1500 rpm síncronos</strong><span id="rpmReal">≈ 1455 rpm estimados no eixo</span></div></div>
+          </article>
+
+          <article class="sim-panel" id="sim-diagnostico">
+            <div class="sim-header"><div><span class="eyebrow">CAÇA-FALHAS</span><h2>Diagnóstico orientado</h2></div><span class="sim-tag">Medição + lógica</span></div>
+            <div class="fault-card"><strong id="faultTitle">Cenário</strong><p id="faultText"></p><div class="fault-options" id="faultOptions"></div><div class="result-box" id="faultFeedback" hidden></div><button class="btn" id="nextFault">Novo cenário</button></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="view" id="view-avaliacao"><div class="section-header"><div><span class="eyebrow">AVALIAÇÃO FINAL</span><h1>20 questões</h1><p>Resultado gravado no navegador. Meta recomendada: 70% de aproveitamento.</p></div></div><div id="finalAssessment"></div></section>
+
+      <section class="view" id="view-plano">
+        <div class="section-header"><div><span class="eyebrow">PLANO DO DOCENTE</span><h1>Distribuição das 40 horas + módulo bônus</h1><p>Proposta pronta para uso em laboratório, com progressão do básico ao projeto final e conteúdo extra de segurança funcional.</p></div></div>
+        <div class="panel"><div class="project-deliverable"><div><strong>24h</strong><p>Fundamentos, componentes, diagramas e partidas clássicas.</p></div><div><strong>8h</strong><p>Soft-starter, inversor e sensores.</p></div><div><strong>4h</strong><p>Diagnóstico e manutenção.</p></div><div><strong>4h</strong><p>Projeto, montagem e comissionamento final.</p></div></div></div>
+        <div class="panel" id="teacherPlan"></div>
+      </section>
+
+
+
+      <section class="view" id="view-galeria">
+        <div class="section-header"><div><span class="eyebrow">BIBLIOTECA VISUAL</span><h1>Imagens didáticas em WebP</h1><p>Material visual para fixação de componentes, cores, numeração, ligações de motores e segurança funcional.</p></div></div>
+        <div class="panel"><div class="legal-alert"><strong>Novo na V3:</strong> agora a formação inclui relé de segurança, botão de emergência, circuito em dois canais, EDM/feedback, intertravamento de porta e fluxo de operação segura.</div><div class="gallery-grid" id="galleryGrid"></div></div>
+      </section>
+
+      <section class="view" id="view-referencias">
+        <div class="section-header"><div><span class="eyebrow">REFERÊNCIAS DE APOIO</span><h1>Base técnica recomendada</h1><p>Use sempre a edição vigente e o manual específico do equipamento utilizado.</p></div></div>
+        <div class="panel"><div class="feature-list">
+          <div><span>01</span><p>NR-10 — Segurança em Instalações e Serviços em Eletricidade.</p></div>
+          <div><span>02</span><p>NR-12 — Segurança no Trabalho em Máquinas e Equipamentos.</p></div>
+          <div><span>03</span><p>ABNT NBR IEC 60204-1 — equipamento elétrico de máquinas.</p></div>
+          <div><span>04</span><p>Série ABNT NBR IEC 60947 — dispositivos de manobra e proteção de baixa tensão.</p></div>
+          <div><span>05</span><p>IEC 60617 — símbolos gráficos para diagramas.</p></div>
+          <div><span>06</span><p>Manuais WEG, Siemens, Schneider Electric, ABB e demais fabricantes utilizados na bancada.</p></div>
+        </div><div class="legal-alert"><strong>Nota:</strong> o material é didático. Para projeto, instalação, parametrização e comissionamento reais, confirme normas, dados de placa e documentação atual do fabricante.</div></div>
+      </section>
+    </main>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
